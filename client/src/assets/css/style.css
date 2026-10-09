@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+  --heading: 'Plus Jakarta Sans', sans-serif;
+  --body: 'Inter', sans-serif;
+  --muted-foreground: #5c7d77;
+  --primary: #426c65;
+  --secondary: #f5ede4;
+  --highlight: #528a7a;
+  --foreground: #2d4d47;
+  --color-white:#ffffff;
+  --accent: #d9eeea;
+  --brand: #719d9a;
+}
+
+
+body {
+  font-family: var(--body);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.navbar .logo-text {
+  font-family: var(--heading);
+  font-weight: 700;
+  color: var(--foreground);
+  text-transform: none;
+}
+
+.navbar .nav-button {
+  color: var(--muted-foreground);
+  font-family: var(--heading);
+}
+
+.auth-buttons .login-button {
+  color: var(--foreground);
+  font-family: var(--heading);
+   font-weight: 600;
+}
+
+.auth-buttons .MuiButton-root {
+    font-family: var(--heading);
+}
